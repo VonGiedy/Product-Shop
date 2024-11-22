@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login - Apol Store</title>
+        <link rel="stylesheet" href="./login.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>Welcome to Apol Store</h1>
+            <p>Your one-stop shop for minimalist essentials</p>
+        </header>
+        <nav class="nav">
+            <a href="../index/index.html">Home</a>
+        <a href="../login/login.html">Sign In</a>
+        <a href="../register/register.html">Sign Up</a>
+        </nav>
+        <h1>Login</h1>
+        <form name="login" action="login/submit.php" method="post">
+            <label for="email">Username:</label>
+            <input id="email" name="email" type="text" placeholder="Your Email">
+            <br>
+            <label for="password">Password:</label>
+            <input id="password" name="password" type="password" placeholder="Your Password">
+            <br>
+            <input type="submit" name="login" id="submit" value="Log in">
+        </form>
+        <footer>
+            <p>&copy; 2024 Apol Store. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
